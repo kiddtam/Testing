@@ -6,7 +6,7 @@ IP address :  192.168.1.138
 
 ####登陆/主页
 
-#### GET方法
+##### GET方法
 
 **URL** : [localhost:8000](localhost:8000)
 
@@ -15,7 +15,7 @@ IP address :  192.168.1.138
 
 #### 有米广告回调接口
 
-#### Get 方法
+##### Get 方法
 
 **URL** : [localhost:8000/order](localhost:8000/order)
 
@@ -47,11 +47,11 @@ sign      |string | *Required*. 用固定的函数计算得到的签名值
 
 #### 用户积分兑换接口
 
-#### POST方法
+##### POST方法
 
 **URL** : [localhost:8000/points_test](localhost:8000/points_test)
 
-#### 接口对应DB设计
+##### 接口对应DB设计
 
 Parameters:
 
@@ -69,12 +69,12 @@ created_at  |datetime | 创建日期
 
 #### 兑换记录
 
-#### GET方法
+##### GET方法
 
 **URL** : [localhost:8000/transactions](localhost:8000/transactions)
 
 #### 返回所有兑换类型
 
-#### GET方法
+##### GET方法
 
 **URL** : [localhost:8000/type](localhost:8000/type)
